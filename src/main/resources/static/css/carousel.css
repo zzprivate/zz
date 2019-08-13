@@ -1,0 +1,44 @@
+/*通用*/
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+body{
+	background:#0000CD;
+}
+.poster-main{
+	width: 900px;
+	height: 270px;
+	position: relative;
+	margin: 2% auto;
+}
+.poster-list{
+	width: 800px;
+	height: 270px;
+}
+.poster-item{
+	position: absolute;
+	left:0;
+	right: 0;
+}
+.poster-item img{
+	display: block;
+}
+.btn{
+	position:absolute;
+	top:0;
+	width:80px;
+	height:270px;
+	z-index:10;
+	cursor:pointer;
+	opacity:0.8
+}
+.poster-prev{
+	left:0;
+	background: url(../images/for_pages/btn_l.png) no-repeat center center;
+}
+.poster-next{
+	right:0;
+	background: url(../images/for_pages/btn_r.png) no-repeat center center;
+}

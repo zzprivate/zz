@@ -1,0 +1,30 @@
+.paragragh{
+	padding : 2px;
+	margin-top : 35px;
+	margin-left : 40px;
+	margin-right : 40px;
+	
+}
+span {
+	font-size :22px;
+}
+.cent_p {
+	text-align: center;
+	color : red;
+	font-size : 22px;
+}
+p{
+	text-indent: 2em;
+	line-height: 25px;
+}
+p.word-spacing {
+	word-spacing: 20px;
+}
+.alone_span{
+	text-align: center;
+	color : red;
+	font-size : 32px;
+}
+.class_p3 {
+	text-indent: 12em;
+}
